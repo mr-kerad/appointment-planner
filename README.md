@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+#Appointment Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Appointment Planner is a React application that allows users to manage contacts and schedule appointments. This project was created as part of the Codecademy curriculum and serves as a practice for building React applications with state management and routing.
+Please find the App at the following link: https://mr-kerad-appointment-planner.netlify.app/contacts
 
-## Available Scripts
+##Features
 
-In the project directory, you can run:
+-**Contacts Management:** Add, view, and manage a list of contacts with their name, phone number, and email address.
+-**Appointment Scheduling:** Schedule appointments by selecting a contact, specifying a date, and setting a time.
+-**Dynamic Routing:** Navigate between the Contacts and Appointments pages using React Router.
+-**State Management:** Use the useState hook to manage the state of contacts and appointments.
 
-### `npm start`
+##Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-**React:** Frontend framework used for building the user interface.
+-**React Router:** For client-side routing and navigation.
+-**CSS Modules:** For styling components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Usage
 
-### `npm test`
+###Contacts Page:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Navigate to the "Contacts" tab.
+-Add a new contact by entering the name, phone number, and email address.
+-View the list of saved contacts.
 
-### `npm run build`
+###Appointments Page:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Navigate to the "Appointments" tab.
+-Add a new appointment by selecting a contact, specifying a date, and setting a time.
+-View the list of scheduled appointments.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Challenges and Learnings
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-**State Management:** Managing complex state across multiple components using useState.
+-**Routing:** Setting up nested routes with React Router.
+-**Props Passing:** Passing functions and state as props to child components for interactivity.
 
-### `npm run eject`
+##Future Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Add form validation for contact details and appointments.
+-Implement a search feature for contacts and appointments.
+-Integrate a backend for persistent data storage.
+-Add animations for a better user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##Acknowledgments
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Codecademy for the project concept and guidance.
+-React documentation for resources and support.
+-Let me know if you'd like to add any custom sections or details!

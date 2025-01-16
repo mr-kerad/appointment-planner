@@ -1,7 +1,7 @@
 # Appointment Planner
 
 Appointment Planner is a React application that allows users to manage contacts and schedule appointments. This project was created as part of the Codecademy curriculum and serves as a practice for building React applications with state management and routing.
-Please find the App at the following link: https://mr-kerad-appointment-planner.netlify.app/contacts
+Please find the App at the following link: https://mr-kerad-appointment-planner.netlify.app
 
 ## Features
 
